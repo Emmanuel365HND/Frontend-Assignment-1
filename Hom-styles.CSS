@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#event-form {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#events-container {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.event-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.event-card h2 {
+    margin-top: 0;
+}
+

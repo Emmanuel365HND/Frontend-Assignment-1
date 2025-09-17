@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planning App</title>
+    <link rel="stylesheet" href="Hom-styles.css">
+</head>
+<body>
+    <h1>Event Planning App</h1>
+    <form id="event-form">
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" required>
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" required>
+        <label for="event-time">Event Time:</label>
+        <input type="time" id="event-time" required>
+        <label for="event-location">Event Location:</label>
+        <input type="text" id="event-location" required>
+        <button id="create-event-btn">Create Event</button>
+    </form>
+    <div id="events-container"></div>
+
+    <script src="Hom-script.js"></script>
+</body>
+</html>
+
